@@ -59,4 +59,4 @@ df["Valor"] = df["Valor"].apply(limpa_valor)
 # Exportar
 df.to_excel("saida.xlsx", index=False)
 
-print("✅ Arquivo gerado: saida.xlsx")
+print("Arquivo gerado: saida.xlsx")
